@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import { CV } from './components/cv/CV.tsx';
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
         <p>
           Ronan O'Cuinn
         </p>
+        <CV />
       </header>
     </div>
   );
