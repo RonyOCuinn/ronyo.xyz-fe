@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { CV } from './components/cv/CV.tsx';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Ronan O\' Cuinn';
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
